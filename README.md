@@ -2,11 +2,12 @@
 
 
 1. django-admin startproject  project1         ----------> for starting project.
-2. python manage.py runserver    ----------------------> to start server
-3.python manage.py startapp app1 ----------------------> to start/create new  app
+2. python manage.py runserver    ----------------------> to start server.
+   
+3. python manage.py startapp app1 ----------------------> to start/create new  app.
 
 
-4.when we request for a page it first comes to the urls of urls of project then it will pass to the urls of apps.
+4 .when we request for a page it first comes to the urls of urls of project then it will pass to the urls of apps.
 
   syntax: path('pagename', views.function_name , name="...")
 
@@ -36,7 +37,7 @@ same to do with template find template section and add path
 
 9. python manage.py makemigrations ------------>which is responsible for creating new migrations based on the changes you have made to your models.
 10. python manage.py migrate --------------->which is responsible for applying and unapplying migrations.
-11.python manage.py createsuperuser   --------------> for making super user of project.  ----------------> a person who can modifed data of admin page.
+11. python manage.py createsuperuser   --------------> for making super user of project.  ----------------> a person who can modifed data of admin page.
 
 12. We can inherit one template into another template in Django. by creating block. 
 
