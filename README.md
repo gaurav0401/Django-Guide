@@ -7,9 +7,9 @@
 3. python manage.py startapp app1 ----------------------> to start/create new  app.
 
 
-4 .when we request for a page it first comes to the urls of urls of project then it will pass to the urls of apps.
+4. when we request for a page it first comes to the urls of urls of project then it will pass to the urls of apps.
 
-  syntax: path('pagename', views.function_name , name="...")
+     syntax: path('pagename', views.function_name , name="...")
 
 5. HttpResponse is use to render texts 
 6. render is used to render templates. ex: render(request , 'template name')
@@ -17,9 +17,9 @@
 
 7. for setting static files directories   
 
-STATICFILES_DIRS = [
-   os.path.join(BASE_DIR, 'static')
-]
+    STATICFILES_DIRS = [
+_      os.path.join(BASE_DIR, 'static')
+      ]_
 
 same to do with template find template section and add path 
 
