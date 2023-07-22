@@ -21,7 +21,7 @@
 _      os.path.join(BASE_DIR, 'static')
       ]_
 
-same to do with template find template section and add path 
+    same to do with template find template section and add path 
 
 
 8. for rendering variable in html page  use {{a}}
@@ -44,9 +44,9 @@ same to do with template find template section and add path
 13. https://source.unsplash.com/random/1600x600/?river&1    unsplash api
 
 14. To send the data to the backend we need to create a model in a models.py moudle 
-       ---- there we need to create a class named (whatever our purpose is)
-       ---- then register that class in admin.py module using (admin.site.register(classname))
-       ---- then go to apps.py module and copy name of class and paste that name in settings.py moudle in installed app sections as "appname.apps.classname"
-       ---- then make migrations using "python manage.py makemigrations"
-       ----  then run "python manage.py migrate "
-       ----now create instance of object of model class and pass data to that object.
+       > there we need to create a class named (whatever our purpose is)
+       > then register that class in admin.py module using (admin.site.register(classname))
+       > then go to apps.py module and copy name of class and paste that name in settings.py moudle in installed app sections as "appname.apps.classname"
+       > then make migrations using "python manage.py makemigrations"
+       >  then run "python manage.py migrate "
+       > now create instance of object of model class and pass data to that object.
