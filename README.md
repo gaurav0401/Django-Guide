@@ -50,3 +50,4 @@ _      os.path.join(BASE_DIR, 'static')
        * then make migrations using "python manage.py makemigrations"
        *  then run "python manage.py migrate "
        * now create instance of object of model class and pass data to that object.
+       *  Note : {% csrf_token %} must be used in html page before sending data to the backend.
