@@ -1,8 +1,8 @@
 # Django-Project-Guide
 
 
-NOTE: It is a good practice to create  a projects in a virtual environment .
-          ** Some most used commands
+NOTE: It is a good practice to create  a projects in a virtual environment.
+          * Some most used commands
           * pip install virtualenv
           * pip virtualenv environment_name 
           * cd myenv (to use it)
