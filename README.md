@@ -7,6 +7,8 @@
       * pip virtualenv environment_name 
       * cd myenv (to use it)
       * Scripts/activate
+      * pip install -r requirements.txt
+      * pip freeze >  requirements.txt
 
 
 1. django-admin startproject  project1         ----------> for starting project.
