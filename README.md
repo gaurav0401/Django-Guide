@@ -1,7 +1,7 @@
 # Django-Project-Guide
 
 
-#### NOTE: It is a good practice to create  a projects in a virtual environment.
+#### NOTE: It is a good practice to create  a projects in a virtual environment and create requirements.txt file (contains all the packages required to run a project).
        Some most used commands
       * pip install virtualenv
       * pip virtualenv environment_name 
