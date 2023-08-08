@@ -9,13 +9,15 @@
 
 4. when we request for a page it first comes to the urls of urls of project then it will pass to the urls of apps.
 
-     syntax: path('pagename', views.function_name , name="...")
+     syntax:
+    for project--------path('', include('app.urls'))
+    for app------- path('pagename', views.function_name , name="...")
 
-5. HttpResponse is use to render texts 
-6. render is used to render templates. ex: render(request , 'template name')
+6. HttpResponse is use to render texts 
+7. render is used to render templates. ex: render(request , 'template name')
 
 
-7. for setting static files directories   
+8. for setting static files directories   
 
     STATICFILES_DIRS = [
 _      os.path.join(BASE_DIR, 'static')
@@ -24,7 +26,7 @@ _      os.path.join(BASE_DIR, 'static')
     same to do with template find template section and add path 
 
 
-8. for rendering variable in html page  use {{a}}
+9. for rendering variable in html page  use {{a}}
    syntax:
     #context is a set of variables to be passed in page
      context={
@@ -35,15 +37,15 @@ _      os.path.join(BASE_DIR, 'static')
 
 
 
-9. python manage.py makemigrations ------------>which is responsible for creating new migrations based on the changes you have made to your models.
-10. python manage.py migrate --------------->which is responsible for applying and unapplying migrations.
-11. python manage.py createsuperuser   --------------> for making super user of project.  ----------------> a person who can modifed data of admin page.
+10. python manage.py makemigrations ------------>which is responsible for creating new migrations based on the changes you have made to your models.
+11. python manage.py migrate --------------->which is responsible for applying and unapplying migrations.
+12. python manage.py createsuperuser   --------------> for making super user of project.  ----------------> a person who can modifed data of admin page.
 
-12. We can inherit one template into another template in Django. by creating block. 
+13. We can inherit one template into another template in Django. by creating block. 
 
-13. https://source.unsplash.com/random/1600x600/?river&1    unsplash api
+14. https://source.unsplash.com/random/1600x600/?river&1    unsplash api
 
-14. To send the data to the backend we need to create a model in a models.py moudle 
+15. To send the data to the backend we need to create a model in a models.py moudle 
        * there we need to create a class named (whatever our purpose is)
        * then register that class in admin.py module using (admin.site.register(classname))
        * then go to apps.py module and copy name of class and paste that name in settings.py module in installed app sections as "appname.apps.classname"
