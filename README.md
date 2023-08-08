@@ -1,6 +1,14 @@
 # Django-Project-Guide
 
 
+NOTE: It is a good practice to create  a projects in a virtual environment .
+          ** Some most used commands
+          * pip install virtualenv
+          * pip virtualenv environment_name 
+          * cd myenv (to use it)
+          * Scripts/activate
+
+
 1. django-admin startproject  project1         ----------> for starting project.
 2. python manage.py runserver    ----------------------> to start server.
    
@@ -20,8 +28,8 @@
 8. for setting static files directories   
 
     STATICFILES_DIRS = [
-_      os.path.join(BASE_DIR, 'static')
-      ]_
+         os.path.join(BASE_DIR, 'static')
+      ]
 
     same to do with template find template section and add path 
 
