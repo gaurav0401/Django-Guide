@@ -10,8 +10,8 @@
 4. when we request for a page it first comes to the urls of urls of project then it will pass to the urls of apps.
 
     * syntax:
-         * for project--------path('', include('app.urls'))
-         * for app------- path('pagename', views.function_name , name="...")
+      * for project--------path('', include('app.urls'))
+      * for app------- path('pagename', views.function_name , name="...")
 
 6. HttpResponse is use to render texts 
 7. render is used to render templates. ex: render(request , 'template name')
