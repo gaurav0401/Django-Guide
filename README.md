@@ -2,11 +2,11 @@
 
 
 NOTE: It is a good practice to create  a projects in a virtual environment.
-          * Some most used commands
-          * pip install virtualenv
-          * pip virtualenv environment_name 
-          * cd myenv (to use it)
-          * Scripts/activate
+      * Some most used commands
+      * pip install virtualenv
+      * pip virtualenv environment_name 
+      * cd myenv (to use it)
+      * Scripts/activate
 
 
 1. django-admin startproject  project1         ----------> for starting project.
