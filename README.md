@@ -4,7 +4,7 @@
 #### NOTE: It is a good practice to create  a projects in a virtual environment and create requirements.txt file (contains all the packages required to run a project).
        Some most used commands
       * pip install virtualenv
-      * pip virtualenv environment_name 
+      * virtualenv environment_name  (to create new environment)
       * cd myenv (to use it)
       * Scripts/activate
       * pip install -r requirements.txt
