@@ -63,3 +63,6 @@
        *  then run "python manage.py migrate "
        * now create instance of object of model class and pass data to that object.
        *  Note : {% csrf_token %} must be used in html page before sending data to the backend.
+   
+16.  from django.contrib.messages import constants as messages    (for editing message status)
+17.  from django.contrib import messages     (for adding success and failure message )
