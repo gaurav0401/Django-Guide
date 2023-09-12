@@ -17,7 +17,7 @@
 3. python manage.py startapp app1 ----------------------> to start/create new  app.
 
 
-4. when we request for a page it first comes to the urls of urls of project then it will pass to the urls of apps.
+4. when we request for a page it first comes to the urls of the project then it will pass to the urls of apps.
 
     * syntax:
       * for project--------path('', include('app.urls'))
