@@ -6,7 +6,7 @@
       * pip install virtualenv
       * virtualenv environment_name  (to create new environment)
       * cd myenv (to use it)
-      * Scripts/activate
+      * Scripts/activate    (NOTE: if any error occurs then run powershell as administrator and run "set-executionpolicy remotesigned"  then press 'Y')
       * pip install -r requirements.txt
       * pip freeze >  requirements.txt
 
