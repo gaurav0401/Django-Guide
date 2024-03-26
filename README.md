@@ -9,6 +9,7 @@
       * Scripts/activate    (NOTE: if any error occurs then run powershell as administrator and run "set-executionpolicy remotesigned"  then press 'Y')
       * pip install -r requirements.txt
       * pip freeze >  requirements.txt
+      * pip collectstatic      (this command is used to copy all the static files into a single directory structure . Every time when we add new files in static folder we need to run this command. )
 
 
 1. django-admin startproject  project1         ----------> for starting project.
