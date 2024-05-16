@@ -72,6 +72,6 @@
        * First we need to create a forms.py file in main folder of project.
        * Then we have to import forms packege in that file (i.e from django import forms)
        * Now we have to create class for whatever form  we need to create (i.e class userForm(forms.Form))
-       * Now we can created desired fields for forms
+       * Now we can created desired fields for forms just like create in models
          
     
