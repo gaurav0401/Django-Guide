@@ -68,8 +68,9 @@
 16.  from django.contrib.messages import constants as messages    (for editing message status)
 17.  from django.contrib import messages     (for adding success and failure message )
 18.  Working with Django Forms
-    * In django we use form package to create forms
-    * First we need to create a forms.py file in main folder of project.
-    * Then we have to import forms packege in that file (i.e from django import forms)
-    * Now we have to create class for whatever form  we need to create (i.e class userForm(forms.Form))
-    *
+       *  In django we use form package to create forms
+       * First we need to create a forms.py file in main folder of project.
+       * Then we have to import forms packege in that file (i.e from django import forms)
+       * Now we have to create class for whatever form  we need to create (i.e class userForm(forms.Form))
+         
+    
