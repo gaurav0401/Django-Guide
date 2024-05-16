@@ -69,9 +69,10 @@
 17.  from django.contrib import messages     (for adding success and failure message )
 18.  Working with Django Forms
        *  In django we use forms package to create form
-       * First we need to create a forms.py file in main folder of project.
+       * First we need to create a forms.py file in app folder of project.
        * Then we have to import forms packege in that file (i.e from django import forms)
        * Now we have to create class for whatever form  we need to create (i.e class userForm(forms.Form))
        * Now we can created desired fields for forms just like create in models
+       * for using that form we can simply import that form in views.py of app and create object of form and pass that object to the template for use.
          
     
