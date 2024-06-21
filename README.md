@@ -75,5 +75,18 @@
        * Now we can created desired fields for forms just like create in models
        * for using that form we can simply import that form in views.py of app and create object of form and pass that object to the template for use .
        * Note: form must be used inside  form tag with csrf_token
+   
+19. Sending emails using django
+     * set up the smtp in settings.py file by using following code
+     * EMAIL_BACKEND ='django.core.mail.backends.smtp.EmailBackend'
+       EMAIL_HOST = 'smtp.gmail.com'
+       EMAIL_HOST_USER = ' mikesmith.t2134@gmail.com'
+       EMAIL_USE_TLS = True
+       DEFAULT_FROM_EMAIL = 'mikesmith.t2134@gmail.com'
+       EMAIL_PORT = 587
+       EMAIL_HOST_PASSWORD = '*************'
+     * Now we can use different methods to send emails like send_email() , which takes following  arguments
+     *  message = send_mail( subject = "",  message ='', from_email = settings.EMAIL_HOST_USER  , recipient_list=[]   )
+     * At last send the email using a send method like message.send()
          
     
